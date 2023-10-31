@@ -46,7 +46,7 @@ ZhejiangSetting = BaseChainSetting(
 HoleskySetting = BaseChainSetting(
     NETWORK_NAME=HOLESKY, 
     GENESIS_FORK_VERSION=bytes.fromhex('01017000'),
-    EXIT_FORK_VERSION=bytes.fromhex('01017072'),
+    EXIT_FORK_VERSION=bytes.fromhex('04017000'),
     GENESIS_VALIDATORS_ROOT=bytes.fromhex('9143aa7c615a7f7115e2b6aac319c03529df8242ae705fba9df39b79c59fa8b1'))
 
 
